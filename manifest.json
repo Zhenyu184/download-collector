@@ -3,7 +3,7 @@
     "name": "Download Collector",
     "version": "0.1",
     "description": "An extension to listen to download events",
-    "permissions": ["downloads"],
+    "permissions": ["downloads", "downloads.shelf"],
     "background": {
         "service_worker": "background.js"
     },
